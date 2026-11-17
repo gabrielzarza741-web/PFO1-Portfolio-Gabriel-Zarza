@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Gabriel Zarza, estudiante de desarrollo de software. Tecnología, aprendizaje y servicio.">
+  <title>Gabriel Zarza · Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="container topbar">
+    <a class="brand" href="#inicio" aria-label="Gabriel Zarza, inicio">GZ<span>.</span></a>
+    <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a><a href="#personal">Mi lado personal</a><a href="#contacto">Contacto ↗</a></nav>
+  </header>
+  <main id="contenido">
+    <section class="container hero" id="inicio" aria-labelledby="titulo">
+      <div><p class="eyebrow"><span class="dot"></span> ESTUDIANTE DE DESARROLLO DE SOFTWARE</p>
+        <h1 id="titulo">Gabriel<br><span>Zarza.</span></h1>
+        <p class="intro">Aprender, crear<br>y aportar algo útil.</p>
+        <p class="muted">Me estoy formando en desarrollo de software. Exploro cómo transformar una idea en una solución clara, práctica y cercana a las personas.</p>
+        <div class="actions"><a class="button" href="#habilidades">Conocé mi perfil ↓</a><a class="text-link" href="https://github.com/gabrielzarza741-web" target="_blank" rel="noopener noreferrer">Mi GitHub ↗</a></div>
+      </div>
+      <figure class="hero-art"><img src="identidad.svg" width="600" height="640" alt="Ilustración de las iniciales GZ entre símbolos de código y una línea que representa el aprendizaje continuo."><figcaption>TECNOLOGÍA + COMPROMISO + CURIOSIDAD</figcaption></figure>
+    </section>
+    <section class="container section about" id="sobre-mi" aria-labelledby="sobre-titulo"><p class="eyebrow">01 / SOBRE MÍ</p><div><h2 id="sobre-titulo">Una idea a la vez.<br>Un paso más adelante.</h2><p>Soy Gabriel Zarza. Estudio desarrollo de software y practico con proyectos que combinan programación, diseño y resolución de problemas.</p><p>En mi formación trabajo con C#, Windows Forms, MySQL, Python, HTML y CSS. Me interesa entender cómo funciona cada parte y seguir mejorando con la práctica.</p></div></section>
+    <section class="container section" id="habilidades" aria-labelledby="habilidades-titulo"><div class="section-heading"><div><p class="eyebrow">02 / LO QUE ESTOY APRENDIENDO</p><h2 id="habilidades-titulo">Mi caja de herramientas.</h2></div><p class="muted">Conocimientos en formación,<br>puestos en práctica.</p></div><div class="skills"><article><span class="number">01</span><h3>Desarrollo web</h3><p>Estructuras semánticas, estilos propios y páginas que se adaptan a distintas pantallas.</p><p class="tags">HTML · CSS · Responsive</p></article><article><span class="number">02</span><h3>Programación</h3><p>Clases, objetos e interfaces de escritorio para organizar datos y resolver consignas.</p><p class="tags">C# · Windows Forms · Python</p></article><article><span class="number">03</span><h3>Datos y colaboración</h3><p>Prácticas con bases de datos y repositorios para organizar y compartir el trabajo.</p><p class="tags">MySQL · Git · GitHub</p></article></div></section>
+    <section class="personal" id="personal" aria-labelledby="personal-titulo"><div class="container personal-inner"><p class="eyebrow">03 / FUERA DEL CÓDIGO</p><div><h2 id="personal-titulo">Tecnología con<br>vocación de servicio.</h2><p>Mi experiencia como bombero también forma parte de quién soy. El trabajo en equipo, la responsabilidad y la comunicación son valores que conecto con mi aprendizaje en tecnología.</p><p>Me interesa pensar herramientas que acompañen necesidades reales, como la organización de convocatorias y salidas de dotaciones.</p><span class="personal-sign">Aprender para poder aportar.</span></div></div></section>
+    <section class="container section contact" id="contacto" aria-labelledby="contacto-titulo"><div><p class="eyebrow">04 / CONTACTO</p><h2 id="contacto-titulo">Sigamos<br>en contacto.</h2><p>Podés escribirme por correo o conocer mis trabajos en GitHub.</p><a class="text-link" href="mailto:gabrielzarza741@gmail.com">gabrielzarza741@gmail.com ↗</a><br><a class="text-link" href="https://github.com/gabrielzarza741-web" target="_blank" rel="noopener noreferrer">github.com/gabrielzarza741-web ↗</a></div><form id="contact-form"><p class="form-intro">Prepará tu mensaje. Al continuar se abrirá tu aplicación de correo.</p><label for="nombre">Tu nombre</label><input id="nombre" name="nombre" autocomplete="name" required maxlength="100"><label for="correo">Tu correo</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="254"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" required rows="4" maxlength="2000"></textarea><button class="button" type="submit">Preparar correo ↗</button><p id="form-status" role="status"></p><noscript><p>Para contactarme, usá el enlace de correo de esta sección.</p></noscript></form></section>
+  </main>
+  <footer class="container"><a class="brand" href="#inicio">GZ<span>.</span></a><p>Gabriel Zarza · PFO1 · 2026</p><a href="#inicio">Volver arriba ↑</a></footer>
+</body>
+</html>
